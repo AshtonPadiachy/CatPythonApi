@@ -11,7 +11,7 @@ name = input("Please type in the name of a domestic cat breed:\n")
 api_url = 'https://api.api-ninjas.com/v1/cats?name={}'.format(name)
 
 #api key used
-response = requests.get(api_url, headers={'X-Api-Key': 'BKPECZUzlmNvf31LI8NjnoVklLWjB4cWzOZ7hUMX'})
+response = requests.get(api_url, headers={'X-Api-Key': 'yourspecialapikeymustbeputhere'})
 
 #test if api works with response object
 #if response.status_code == requests.codes.ok:
